@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Channels.exe" version="1.0.0.1" publicKeyToken="93516c6cbb501586" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="tv.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Channels" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Channels.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.AXVLC.dll" size="17408">
+      <assemblyIdentity name="AxInterop.AXVLC" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>g0g5zYVT5oSGruiZfs2Mrq+smGuSgj+LFK4ggHxT8+A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Channels.exe" size="37226464">
+      <assemblyIdentity name="Channels" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>doh/PdKB4ykKlPRSM0pgvw/anDd7oPvASSYZ3ZmzGuQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.AXVLC.dll" size="31744">
+      <assemblyIdentity name="Interop.AXVLC" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>w+AzAtj91dVMhAb7HVBQMwOWaFenYqPvvU59HL1VYGU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Channels.exe.config" size="184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FqWy0dfMmRS85zkU1NlW07p6LsNOPUHodvLiZcFdgJY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\tv.ico" size="370070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7EDAUgc4ujQe4aMf1KlEIuC0exyM7wzqnJEPXkUkHe8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\TV1.jpg" size="254065">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>a5FYJCGGMr4kAPj3iF2QKyAHeQcEl1CLXTPiyWpK80Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="tv.ico" size="370070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7EDAUgc4ujQe4aMf1KlEIuC0exyM7wzqnJEPXkUkHe8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-7OSRG9B\icara" issuerKeyHash="94e76b0fffa2edea987d12f35d933e05eb1159f2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8igb5ja0JGqHgdME+N3aRk553ISvbgDxPRe9Ax5O5Gk=</DigestValue></Reference></SignedInfo><SignatureValue>v6rSSwKCSphKKJHNPoQcFavWPr0pJPaJLieMHtE87RRshL7P3EpaEuQ7C2cnQ1sphiqIFtfotFwXiVJTIc2qx1jZzpK3y8diZRPTtRyForGKtq4vcuu4z2mgDvuVRbAs8jpMNGcclw5Kvrxsg/kBqdRBloib37qcskUgOgHEt0E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xB7YrWantESq4/+OB3mXAceWF+iSp/w23n79swoJetFdeU+z06rsRGDx0S4grAZjVUE0G8Be6JJjIA7XbbtGij6N5C8CKyg6dVguQFn/l1uOJL+tmZHuuFphbYb9UGul5h9JxRh8YGHtXylaqwRV0DasgiepYQUyT28N+UQeyck=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="69e44e1e03bd173df1006eaf84dc794e46daddf804d381876a24b436e61b28f2" Description="" Url=""><as:assemblyIdentity name="Channels.exe" version="1.0.0.1" publicKeyToken="93516c6cbb501586" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-7OSRG9B\icara</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>7k0tZVaEihpP5KGVbDgX9kjxO3lormXZFspLPJ5b6bc=</DigestValue></Reference></SignedInfo><SignatureValue>bhdEwv5tFsCDnFpgpTq7lVhcgDjjDjWEirlfxGKq8ym3uQXckDeGUX6RymkFK706A42m6jFkpEKtkeQw/DgNgDekWe7sr+eEg3PQkOnYVW0WP9D8ntl4v2UneW6K1gL3phNXyzJYGN3lbaWDw/nBwu27DgUaS75lSlQMa6q01Og=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xB7YrWantESq4/+OB3mXAceWF+iSp/w23n79swoJetFdeU+z06rsRGDx0S4grAZjVUE0G8Be6JJjIA7XbbtGij6N5C8CKyg6dVguQFn/l1uOJL+tmZHuuFphbYb9UGul5h9JxRh8YGHtXylaqwRV0DasgiepYQUyT28N+UQeyck=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQIQz5h3D/DJ5NZgV6pfE6OzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADcATwBTAFIARwA5AEIAXABpAGMAYQByAGEwHhcNMTcwMTE0MTY1ODU2WhcNMTgwMTE0MjI1ODU2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADcATwBTAFIARwA5AEIAXABpAGMAYQByAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMQe2K1mp7REquP/jgd5lwHHlhfokqf8Nt5+/bMKCXrRXXlPs9Oq7ERg8dEuIKwGY1VBNBvAXuiSYyAO1227Roo+jeQvAisoOnVYLkBZ/5dbjiS/rZmR7rhaYW2G/VBrpeYfScUYfGBh7V8pWqsEVdA2rIInqWEFMk9vDflEHsnJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAS3s6O4EYy4fEahqvZS/F90wbKitdwe0AboIMWdmOkDdajp74dZ10kfg88xSVeeq4N9y6VfD3JjjMLfX2Dhezm2+WJQoTKeH3cxVOk5wmaPjFmXNMyLc0wsKeqRV/AzT5XUGAogQisB1MkQT0349hH8MwPEcvCojVslP2/ldzuI8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
