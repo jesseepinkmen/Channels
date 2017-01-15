@@ -66,7 +66,7 @@ namespace Channels
             var request = WebRequest.Create("http://torrent-tv.ru/auth.php") as HttpWebRequest;
             var container = new CookieContainer();
             request.CookieContainer = container;
-            string postData = "email=" + "alexandercarabet@gmail.com" + "&password=" + "car307072447"+ "&enter=;
+            string postData = "email=";// + "alexandercarabet@gmail.com" + "&password=" + "car307072447"+ "&enter=;
             byte[] data = Encoding.ASCII.GetBytes(postData);
             request.Method = "POST";
             request.ContentType = "application/x-www-form-urlencoded";
@@ -164,7 +164,7 @@ namespace Channels
                 Channel temp = new Channel();
                 channels.Clear();
                 string url;
-                //htmlCode = textReader.ReadToEnd();
+                htmlCode = textReader.ReadToEnd();
                 htmlCode = htmlCode.Substring(htmlCode.IndexOf("channels-submenu"));
                 htmlCode = htmlCode.Substring(0,htmlCode.IndexOf("films.php"));
                 string[] result = htmlCode.Split(new[] { '\r', '\n' });

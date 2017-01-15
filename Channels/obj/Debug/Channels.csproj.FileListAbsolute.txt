@@ -17,3 +17,22 @@ C:\Users\icara\documents\visual studio 2015\Projects\Channels\Channels\obj\Debug
 C:\Users\icara\documents\visual studio 2015\Projects\Channels\Channels\obj\Debug\Channels.exe
 C:\Users\icara\documents\visual studio 2015\Projects\Channels\Channels\obj\Debug\Channels.pdb
 C:\Users\icara\documents\visual studio 2015\Projects\Channels\Channels\obj\Debug\Channels.csprojResolveAssemblyReference.cache
+C:\Private\Channels\Channels\bin\Debug\Channels.exe.config
+C:\Private\Channels\Channels\obj\Debug\Channels.csproj.ResolveComReference.cache
+C:\Private\Channels\Channels\obj\Debug\Channels.exe
+C:\Private\Channels\Channels\obj\Debug\Channels.pdb
+C:\Private\Channels\Channels\obj\Debug\Channels.csprojResolveAssemblyReference.cache
+C:\Private\Channels\Channels\obj\Debug\Channels.AddChannel.resources
+C:\Private\Channels\Channels\obj\Debug\Channels.Form1.resources
+C:\Private\Channels\Channels\obj\Debug\Channels.Properties.Resources.resources
+C:\Private\Channels\Channels\obj\Debug\Channels.csproj.GenerateResource.Cache
+C:\Private\Channels\Channels\bin\Debug\Channels.exe.manifest
+C:\Private\Channels\Channels\bin\Debug\Channels.application
+C:\Private\Channels\Channels\bin\Debug\Channels.exe
+C:\Private\Channels\Channels\bin\Debug\Channels.pdb
+C:\Private\Channels\Channels\bin\Debug\Interop.AXVLC.dll
+C:\Private\Channels\Channels\bin\Debug\AxInterop.AXVLC.dll
+C:\Private\Channels\Channels\obj\Debug\Interop.AXVLC.dll
+C:\Private\Channels\Channels\obj\Debug\AxInterop.AXVLC.dll
+C:\Private\Channels\Channels\obj\Debug\Channels.exe.manifest
+C:\Private\Channels\Channels\obj\Debug\Channels.application

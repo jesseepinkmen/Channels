@@ -33,9 +33,13 @@ namespace Channels
                 {
                     url = "http://127.0.0.1:6878/ace/getstream?url=http%3A%2F%2Fcontent.asplaylist.net%2F" + tb_URL.Text.Substring(tb_URL.Text.IndexOf("=") + 1)+ ".acelive";
                 }
-                else
+                else if(tb_URL.Text.Length<10)
                 {
                     url = "http://127.0.0.1:6878/ace/getstream?url=http%3A%2F%2Fcontent.asplaylist.net%2F" + tb_URL.Text + ".acelive";
+                }
+                else
+                {
+                    url = tb_URL.Text;
                 }
                 Channel temp = new Channel();
                 temp.url = url;
