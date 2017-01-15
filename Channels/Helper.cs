@@ -144,7 +144,7 @@ namespace Channels
 
         public static void getChannelList()
         {
-            string htmlCode= getAfteLogin();
+            string htmlCode;//= getAfteLogin();
             categories = new List<string>();
             //const Int32 BufferSize = 128;
             //using (var fileStream = File.OpenRead(Environment.CurrentDirectory+ "\\TTV.txt"))
